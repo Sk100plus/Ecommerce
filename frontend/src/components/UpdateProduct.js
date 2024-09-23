@@ -71,7 +71,7 @@ const UpdateProduct = () => {
                         onChange={(e) => setCategory(e.target.value)} 
                     />
                 </div>
-                <div className="form-group mb-3">
+                <div className="form-group mb-3 ">
                     <input 
                         type="text" 
                         placeholder="Enter company name" 
