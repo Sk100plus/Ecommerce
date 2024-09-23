@@ -152,6 +152,7 @@ app.get("/",(req,res)=>{
     app.use(express.static(path.resolve(__dirname,"frontend","build")));
     res.sendFile(path.resolve(__dirname,"frontend","build","index.html"));
 });
-app.listen(2000,()=>{
+app.listen(5000,()=>{
     console.log("Server Started");
 });
+
